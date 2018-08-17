@@ -4,7 +4,7 @@ This is a project I worked on for an Operating Systems class.
 *****************************************************************************************************************************************
 ### Memory
 Memory can hold up to 2000 integer entries. First half is used for the user program and the other half is for the system.
-It supports a read and a write operation to read from a specific address and to write to a specific address with the address passed as a parameter. 
+It supports a readMem and a writeMem operation to read from a specific address and to write to a specific address with the address passed as a parameter. 
 ### CPU
 Registers: PC, SP, IR, AC, X, Y.
 It runs the user program at address 0.
