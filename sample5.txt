@@ -1,0 +1,147 @@
+.0
+1     //load 20
+20
+14    //CopyToX
+2     //load from 100
+100
+9     //Put char
+2
+26    //DecX
+15    //CopyFromX
+22    //JumpIfNotEqual 3
+3     
+1     //print newline
+10
+9
+2
+2     //load from 101
+101
+21    //JumpIfEqual 26
+26
+29    //Interrupt
+1     //print newline
+10
+9
+2
+20    //Jump 0
+0
+50
+
+
+
+
+
+    //Data to be accessed in user mode
+.100
+42
+1
+
+.1000   //timer interrupt
+30
+
+.1500   //print "YOU'RE BEAUTIFUL"
+2
+1724
+9
+2
+2
+1714
+9
+2
+2
+1720
+9
+2
+2
+1726
+9
+2
+2
+1717
+9
+2
+2
+1704
+9
+2
+2
+1727
+9
+2
+2
+1701
+9
+2
+2
+1704
+9
+2
+2
+1700
+9
+2
+2
+1720
+9
+2
+2
+1719
+9
+2
+2
+1708
+9
+2
+2
+1705
+9
+2
+2
+1720
+9
+2
+2
+1711
+9
+2
+2     //load from 101
+101
+14    //CopyToX
+26    //DecX
+15    //CopyFromX
+7     //store at 101
+101
+30    //IRet
+
+
+    //Data to be access in kernel mode only
+    //A-Z
+.1700
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+39
+32
